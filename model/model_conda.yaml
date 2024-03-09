@@ -1,0 +1,17 @@
+channels:
+- conda-forge
+dependencies:
+- python=3.9.5
+- pip<=21.2.4
+- pip:
+  - mlflow<3,>=2.1
+  - category-encoders==2.5.1.post0
+  - cloudpickle==2.0.0
+  - databricks-automl-runtime==0.2.15
+  - holidays==0.18
+  - psutil==5.8.0
+  - scikit-learn==1.0.2
+  - typing-extensions==4.1.1
+  - xgboost==1.7.2
+  - pandas==1.4.2
+name: mlflow-env
