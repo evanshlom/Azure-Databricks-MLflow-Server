@@ -13,7 +13,7 @@ current model in production.
 
 The weekly training batch returns 50 regression models with evaluation metrics, trained on the Kaggle train/test dataset with 80 features from the ongoing Housing Prices competition.  
 
-The next step is to implement an infrastructure-as-code pipeline using Azure Pipelines from an Azure DevOps repository, where as so far this project represents an initial prototype for rapid training, deployment and reiteration. There are also more opportunities for automation which goes hand-in-hand with growing the codebase grows and reducing reliance on low-code infrastructure.
+The next step is to implement an infrastructure-as-code pipeline using Azure Pipelines from an Azure DevOps repository, where as so far this project represents an initial prototype for rapid training, deployment and reiteration. There are also more opportunities for automation which goes hand-in-hand with growing the codebase and reducing reliance on low-code infrastructure.
 
 ## Dependencies
 The required dependencies are pre-installed in a regular Databricks workspace.
