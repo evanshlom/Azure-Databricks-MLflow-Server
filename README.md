@@ -22,6 +22,7 @@ The required dependencies are pre-installed in a regular Databricks workspace.
 In some Databricks Python notebooks, the mlflow module must be installed using `!pip install mlflow` in the code of the notebook before the module is called.
 
 ## Code Structure
+```
 Azure-Databricks-MLflow-Server
 ├── mlruns/0/
 │   ├── meta.yaml
@@ -48,7 +49,7 @@ Azure-Databricks-MLflow-Server
 ├── requirements.txt
 ├── README.md
 └── estimator.html
-
+```
 
 ## Key Features
 [List of key features, with explanations and screenshots or GIFs]
