@@ -17,6 +17,7 @@
 ## Project Description
 Using Azure Databricks, I registered an ML model to an MLflow model registry and deployed the model into production with CI/CD pipeline using Databricks Workflow. The Workflow includes scheduled jobs that re-run weekly EDA on the latest data, re-train a new batch of models, and test the server endpoint of the 
 current model in production.
+
 The next step is to implement an infrastructure-as-code pipeline using Azure Pipelines from an Azure DevOps repository, where as so far this project represents an initial prototype for rapid training, deployment and reiteration. There are also more opportunities for automation which goes hand-in-hand with growing the codebase grows and reducing reliance on low-code infrastructure.
 
 ## Dependencies
