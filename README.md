@@ -46,7 +46,6 @@ Azure-Databricks-MLflow-Server
 │   ├── model_endpoint_test1_result.csv
 │   ├── query.py
 │   ├── request.json
-├── requirements.txt
 ├── README.md
 └── estimator.html
 ```
