@@ -33,7 +33,6 @@ Azure-Databricks-MLflow-Server
 │   ├── model_model.pkl
 │   ├── model_python_env.yaml
 │   ├── model_requirements.txt
-│   ├── ...
 ├── notebooks/
 │   ├── Routine-Test-Endpoint-Model-HousingPrices-v4.ipynb
 │   ├── data_exploration_notebook.ipynb
@@ -51,7 +50,11 @@ Azure-Databricks-MLflow-Server
 ```
 
 ## Key Features
-[List of key features, with explanations and screenshots or GIFs]
+In the `model` folder, you can see the artifacts from the deployed model. After training an initial batch of XGBoost models, I chose this model for multiple model scoring metrics (MAPE and F1 scores) and registered it to the model registry which saved the model artifacts.
+
+In the `notebooks` folder, you can see the training notebook for the highest performing model from the initial training batch. Additionally, you can see the scheduled Python notebooks. I am planning to post the EDA and Training notebooks (2) to the scheduled_workflows folder after I solve workflow automation bugs for those two notebooks. The Test Endpoint notebook is running live and you can find the same notebook in the `scheduled_workflows` folder.
+
+In the `server/test` folder, you can see the results from the first model endpoint test. I used the test dataset in an API call, and the model returned reasonable predictions through the server endpoint.
 
 ## Acknowledgments
 Thanks to Zach Spain, Steven Sprott, and the rest of the Databricks Team for inspiring me to get started with Databricks, and for your ongoing support.
