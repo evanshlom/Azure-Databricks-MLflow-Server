@@ -22,7 +22,33 @@ The required dependencies are pre-installed in a regular Databricks workspace.
 In some Databricks Python notebooks, the mlflow module must be installed using `!pip install mlflow` in the code of the notebook before the module is called.
 
 ## Code Structure
-[Explanation of the code structure and logic, with code snippets as examples]
+Azure-Databricks-MLflow-Server
+├── mlruns/0/
+│   ├── meta.yaml
+├── model/
+│   ├── model_MLmodel.json
+│   ├── model_conda.yaml
+│   ├── model_input_example.json
+│   ├── model_model.pkl
+│   ├── model_python_env.yaml
+│   ├── model_requirements.txt
+│   ├── ...
+├── notebooks/
+│   ├── Routine-Test-Endpoint-Model-HousingPrices-v4.ipynb
+│   ├── data_exploration_notebook.ipynb
+│   ├── model_highest_performance_notebook.ipynb
+│   ├── model_training_notebook.ipynb
+├── scheduled_workflows/
+│   ├── Routine-Test-Endpoint-Model-HousingPrices-v4.ipynb
+│   ├── ...
+├── server/test/
+│   ├── model_endpoint_test1_result.csv
+│   ├── query.py
+│   ├── request.json
+├── requirements.txt
+├── README.md
+└── estimator.html
+
 
 ## Key Features
 [List of key features, with explanations and screenshots or GIFs]
